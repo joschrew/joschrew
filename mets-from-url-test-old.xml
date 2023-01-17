@@ -20,9 +20,22 @@
   <mets:amdSec ID="AMD">
     </mets:amdSec>
   <mets:fileSec>
-    <mets:fileGrp USE="DEFAULT">
+    <mets:fileGrp USE="OCR-D-IMG">
       <mets:file MIMETYPE="image/png" ID="OCR-D-IMG_0015">
         <mets:FLocat LOCTYPE="URL" xlink:href="https://github.com/OCR-D/assets/raw/master/data/communist_manifesto/data/OCR-D-IMG/OCR-D-IMG_0015.png" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="OCR-D-IMG-BIN">
+      <mets:file MIMETYPE="image/png" ID="OCR-D-IMG-BIN_0015-BIN_sauvola-ms-split">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://raw.githubusercontent.com/OCR-D/assets/master/data/communist_manifesto/data/OCR-D-IMG-BIN/OCR-D-IMG-BIN_0015-BIN_sauvola-ms-split.png" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </mets:file>
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="OCR-D-IMG-BIN_0015">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://raw.githubusercontent.com/OCR-D/assets/master/data/communist_manifesto/data/OCR-D-IMG-BIN/OCR-D-IMG-BIN_0015.xml" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="OCR-D-SEG-KRAKEN">
+      <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="OCR-D-SEG-KRAKEN_0015">
+        <mets:FLocat LOCTYPE="URL" xlink:href="https://raw.githubusercontent.com/OCR-D/assets/master/data/communist_manifesto/data/OCR-D-SEG-KRAKEN/OCR-D-SEG-KRAKEN_0015.xml" xmlns:xlink="http://www.w3.org/1999/xlink"/>
       </mets:file>
     </mets:fileGrp>
   </mets:fileSec>
@@ -30,6 +43,9 @@
     <mets:div TYPE="physSequence">
       <mets:div TYPE="page" ID="P0015">
         <mets:fptr FILEID="OCR-D-IMG_0015"/>
+        <mets:fptr FILEID="OCR-D-IMG-BIN_0015-BIN_sauvola-ms-split"/>
+        <mets:fptr FILEID="OCR-D-IMG-BIN_0015"/>
+        <mets:fptr FILEID="OCR-D-SEG-KRAKEN_0015"/>
       </mets:div>
     </mets:div>
   </mets:structMap>
