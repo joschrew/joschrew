@@ -121,26 +121,26 @@
       </mets:fileGrp>
       <mets:fileGrp USE="OCR-D-IMG">
          <mets:file MIMETYPE="image/jpeg" ID="OCR-D-IMG_0001">
-            <mets:FLocat LOCTYPE="URL" xlink:href="OCR-D-IMG/OCR-D-IMG_0001.jpg"/>
+            <mets:FLocat LOCTYPE="URL" xlink:href="http://ola-hd.ocr-d.de/api/export/file?id=21.T11998/0000-001C-9CBE-D&path=OCR-D-IMG/OCR-D-IMG_0001.jpg"/>
          </mets:file>
          <mets:file MIMETYPE="image/jpeg" ID="OCR-D-IMG_0002">
-            <mets:FLocat LOCTYPE="URL" xlink:href="OCR-D-IMG/OCR-D-IMG_0002.jpg"/>
+            <mets:FLocat LOCTYPE="URL" xlink:href="http://ola-hd.ocr-d.de/api/export/file?id=21.T11998/0000-001C-9CBE-D&path=OCR-D-IMG/OCR-D-IMG_0002.jpg"/>
          </mets:file>
       </mets:fileGrp>
       <mets:fileGrp USE="OCR-D-GT-SEG-PAGE">
          <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="OCR-D-GT-SEG-PAGE_0001">
-            <mets:FLocat LOCTYPE="URL" xlink:href="OCR-D-GT-SEG-PAGE/OCR-D-GT-SEG-PAGE_0001.xml"/>
+            <mets:FLocat LOCTYPE="URL" xlink:href="http://ola-hd.ocr-d.de/api/export/file?id=21.T11998/0000-001C-9CBE-D&path=OCR-D-GT-SEG-PAGE/OCR-D-GT-SEG-PAGE_0001.xml"/>
          </mets:file>
          <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="OCR-D-GT-SEG-PAGE_0002">
-            <mets:FLocat LOCTYPE="URL" xlink:href="OCR-D-GT-SEG-PAGE/OCR-D-GT-SEG-PAGE_0002.xml"/>
+            <mets:FLocat LOCTYPE="URL" xlink:href="http://ola-hd.ocr-d.de/api/export/file?id=21.T11998/0000-001C-9CBE-D&path=OCR-D-GT-SEG-PAGE/OCR-D-GT-SEG-PAGE_0002.xml"/>
          </mets:file>
       </mets:fileGrp>
       <mets:fileGrp USE="OCR-D-GT-SEG-BLOCK">
          <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="OCR-D-GT-SEG-BLOCK_0001">
-            <mets:FLocat LOCTYPE="URL" xlink:href="OCR-D-GT-SEG-BLOCK/OCR-D-GT-SEG-BLOCK_0001.xml"/>
+            <mets:FLocat LOCTYPE="URL" xlink:href="http://ola-hd.ocr-d.de/api/export/file?id=21.T11998/0000-001C-9CBE-D&path=OCR-D-GT-SEG-BLOCK/OCR-D-GT-SEG-BLOCK_0001.xml"/>
          </mets:file>
          <mets:file MIMETYPE="application/vnd.prima.page+xml" ID="OCR-D-GT-SEG-BLOCK_0002">
-            <mets:FLocat LOCTYPE="URL" xlink:href="OCR-D-GT-SEG-BLOCK/OCR-D-GT-SEG-BLOCK_0002.xml"/>
+            <mets:FLocat LOCTYPE="URL" xlink:href="http://ola-hd.ocr-d.de/api/export/file?id=21.T11998/0000-001C-9CBE-D&path=OCR-D-GT-SEG-BLOCK/OCR-D-GT-SEG-BLOCK_0002.xml"/>
          </mets:file>
       </mets:fileGrp>
    </mets:fileSec>
